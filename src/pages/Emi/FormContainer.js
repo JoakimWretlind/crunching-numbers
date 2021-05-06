@@ -109,22 +109,22 @@ const FormContainer = () => {
             <FormSection>
                 <h1>EMI <span>Calculator</span></h1>
                 <Container>
-                    <FormGroup className="upperRow">
+                    <FormGroup>
                         <Label htmlFor="label">Purchased Prise</Label>
                         <Input onChange={(e) => setPurchasePrice(e.target.value)} type="number" />
                         <Error>{purchasePrice.error}</Error>
                     </FormGroup>
-                    <FormGroup className="upperRow">
+                    <FormGroup>
                         <Label htmlFor="label">Down Payment</Label>
                         <Input onChange={(e) => setDownPayment(e.target.value)} type="number" />
                         <Error>{downPayment.error}</Error>
                     </FormGroup>
-                    <FormGroup className="lowerRow">
+                    <FormGroup>
                         <Label htmlFor="label">Loan Term (Years)</Label>
                         <Input onChange={(e) => setLoanTerm(e.target.value)} type="number" />
                         <Error>{loanTerm.error}</Error>
                     </FormGroup>
-                    <FormGroup className="lowerRow">
+                    <FormGroup>
                         <Label htmlFor="label">APR (%)</Label>
                         <Input onChange={(e) => setLoanApr(e.target.value)} type="number" />
                         <Error>{loanApr.error}</Error>

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import backgroundImg from '../../images/background-2.png'
 
 export const HeroContainer = styled.section`
-  height: 100%100vh;
+  height: 100vh;
   min-height: 100vh;
   width: 100vw;
   background: url(${backgroundImg})center center no-repeat;
