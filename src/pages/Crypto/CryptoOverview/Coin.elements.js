@@ -36,6 +36,9 @@ export const CoinItem = styled.div`
       margin-right: 2rem;
 
       @media screen and (min-width: 767px){
+        width: 12rem;
+      }
+      @media screen and (min-width: 997px){
         width: 17rem;
       }
   }  
@@ -56,34 +59,22 @@ export const CoinData = styled.div`
   line-height: 2;
   font-family: 'montserrat';
   @media screen and (min-width: 767px){
-    justify-content: flex-start;
+    margin: 0 3rem;
   }
 `;
 
 export const CoinPrice = styled.p`
- @media screen and (min-width: 767px){
-   width: 100%;;
- }
 `;
 
 export const CoinVolume = styled.p`
-  @media screen and (min-width: 767px){
-   width: 100%;;
- }
 `;
 
 export const CoinRed = styled.p`
  color: #f00606;
- @media screen and (min-width: 767px){
-   width: 100%;;
- } 
 `;
 
 export const CoinGreen = styled.p`
   color: #11d811;
-  @media screen and (min-width: 767px){
-   width: 100%;;
- }
 `;
 
 export const CoinMarketcap = styled.p`
@@ -91,5 +82,7 @@ export const CoinMarketcap = styled.p`
   font-size: 1.2rem;
   width: 100%;
   color: #bdc0c4;
+  
+  
 `;
 

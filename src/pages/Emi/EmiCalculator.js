@@ -1,11 +1,13 @@
-import { EmiContainer } from './EmiCalculator.elements'
+// npm install--save react - chartjs - 2 chart.js
 
+import { EmiContainer } from './EmiCalculator.elements'
+import FormContainer from './FormContainer'
 
 const Emi = () => {
     return (
         <>
             <EmiContainer>
-                <h1>Emi Calculator</h1>
+                <FormContainer />
             </EmiContainer>
         </>
     )

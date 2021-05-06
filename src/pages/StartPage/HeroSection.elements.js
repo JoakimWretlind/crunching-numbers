@@ -23,7 +23,7 @@ export const Header = styled.h1`
 
   .outline{
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: .1rem;
+  -webkit-text-stroke-width: .08rem;
   -webkit-text-stroke-color: white;
   }
 `;
