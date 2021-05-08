@@ -10,20 +10,6 @@ export const CoinApp = styled.div`
   overflow-x: hidden;
 `;
 
-export const CoinText = styled.h1`
-  font-family: 'montserrat';
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: clamp(1.6rem, 3vw, 4rem);
-  letter-spacing: .1rem;
-  margin:7rem 0 3rem;
-
-  @media screen and (min-width: 767px){
-    margin:5rem 0 3rem;
-  }
-`;
-
 export const CoinInput = styled.input`
   margin-bottom: 1rem;
   padding: .8rem 0 .8rem 1.5rem;

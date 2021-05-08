@@ -31,7 +31,7 @@ export const SidebarData = [
                 icon: <GiIcons.GiTwoCoins />
             },
             {
-                title: 'Peronal',
+                title: 'Personal',
                 path: '/Crypto/CryptoPersonal/CryptoPersonal',
                 icon: <BiIcons.BiCoinStack />
             }

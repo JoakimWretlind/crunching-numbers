@@ -2,8 +2,8 @@ import styled from 'styled-components'
 import backgroundImg from '../../images/background-2.png'
 
 export const HeroContainer = styled.section`
-  height: 100vh;
-  min-height: 100vh;
+  overflow-x: hidden;
+  height: 70vh;
   width: 100vw;
   background: url(${backgroundImg})center center no-repeat;
   background-size: cover;
@@ -12,7 +12,7 @@ export const HeroContainer = styled.section`
 `;
 
 export const Header = styled.h1`
-  margin-top: 32vh;
+  margin-top: 22vh;
   font-size: 5.5rem;
   color: #f1f1f1;
   text-align: center;

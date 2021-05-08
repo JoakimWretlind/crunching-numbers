@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { SubHeader } from '../../components/Header.elements'
 import {
     FormSection,
     Container,
@@ -102,12 +103,12 @@ const FormContainer = () => {
         setTotalCost(totalCost)
     }
 
-
-
     return (
         <>
             <FormSection>
-                <h1>EMI <span>Calculator</span></h1>
+                <SubHeader>
+                    <h1>EMI <span>Calculator</span></h1>
+                </SubHeader>
                 <Container>
                     <FormGroup>
                         <Label htmlFor="label">Purchased Prise</Label>

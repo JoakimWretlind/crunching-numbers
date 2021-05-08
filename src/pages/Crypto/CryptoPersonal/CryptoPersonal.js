@@ -1,11 +1,15 @@
 import React from 'react'
-import { CPersonal } from './CryptoPersonal.elements'
+import { SubHeader } from '../../../components/Header.elements'
+import { CPersonal, BackgroundImage } from './CryptoPersonal.elements'
 
 const CryptoPersonal = () => {
     return (
         <>
             <CPersonal>
-                <h1>Crypto Personal</h1>
+                <BackgroundImage />
+                <SubHeader>
+                    <h1>Crypto <span>Personal</span></h1>
+                </SubHeader>
             </CPersonal>
         </>
     )

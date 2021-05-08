@@ -4,7 +4,7 @@ export const ContactSection = styled.section`
     overflow: hidden;
     height:100vh;
     width: 100vw;
-    background: #ffefda;
+    background: #222423;
     display: flex;
     justify-content: center;
     align-items: center;

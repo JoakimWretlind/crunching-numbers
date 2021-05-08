@@ -5,7 +5,4 @@ export const SavingsSection = styled.section`
   height: 100vh;
   width: 100%;
   background: #18b868;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 `;

@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
+import { SubHeader } from '../../../components/Header.elements'
 import Coin from './Coin'
 import {
     CoinApp,
-    CoinText,
     CoinInput
 } from './CryptoOverview.elements'
 
@@ -34,7 +34,9 @@ function App() {
 
     return (
         <CoinApp>
-            <CoinText>cryptocurrencies</CoinText>
+            <SubHeader>
+                <h1>crypto<span>currencies</span></h1>
+            </SubHeader>
             <form>
                 <CoinInput type="text" placeholder="Search" onChange={handelChange} />
             </form>

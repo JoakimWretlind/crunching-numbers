@@ -7,26 +7,10 @@ overflow-x: hidden;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 6rem;
 
   @media screen and (min-width: 767px){
     margin-top: 0;
-    padding: 3rem;
-  }
-
-  h1 {
-    font-family: 'oswald';
-    color: #f1f1f1;
-    text-transform: uppercase;
-    font-size: clamp(2.8rem, 3.5vw, 6rem);
-    letter-spacing: .15rem;
-    
-    span{
-      -webkit-text-fill-color: transparent;
-      -webkit-text-stroke-width: .05rem;
-      -webkit-text-stroke-color: white;
-    }
-  }
+  }  
   h3{
       font-size: clamp(1.4rem, 2.2vw, 2rem);
       width: 40%;
