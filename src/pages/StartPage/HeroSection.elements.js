@@ -3,8 +3,9 @@ import backgroundImg from '../../images/background-2.png'
 
 export const HeroContainer = styled.section`
   overflow-x: hidden;
+  margin: 0 auto;
   height: 70vh;
-  width: 100vw;
+  width: 99.1vw;
   background: url(${backgroundImg})center center no-repeat;
   background-size: cover;
   display: flex;

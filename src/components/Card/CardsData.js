@@ -1,51 +1,45 @@
+import Calc from '../../images/calc-test.jpg'
 import Crypto from '../../images/crypto.jpg'
+import Chart from '../../images/linechart.jpg'
+import Emi from '../../images/emi.jpg'
 import Savings from '../../images/savings.jpg'
-import Calcs from '../../images/calc-test.jpg'
-import Emis from '../../images/emi.jpg'
-import chart from '../../images/linechart.jpg'
+
 
 export const feedsource = [
     {
-        source: Calcs,
-        header: 'Custom Calculator',
-        text: 'Just a calculator... That you can design after your own wish',
-        likes: '29',
-        comments: '2',
-        isVideo: false,
-        id: 2,
-    },
-    {
-        source: Crypto,
-        header: 'Crypto Tracker',
-        text: 'Overview of the cryptocurrencies and their values today',
-        likes: '43',
-        comments: '3',
-        isVideo: false,
-        id: 0,
-    },
-    {
-        source: Savings,
-        header: 'Personal Crypto',
-        text: 'Search your favourite currencies, save them and watch their history',
-        comments: '10',
-        isVideo: true,
         id: 1,
+        path: '/Calculator/Calculator',
+        component: 'Calulator',
+        source: Calc,
+        header: 'Custom Calculator',
+        text: 'A Calculator styled your way'
     },
-
     {
-        source: Emis,
-        header: 'EMI Calculator',
-        text: 'Check out the cost of your current or prospect loans',
-        comments: '2',
-        isVideo: false,
+        id: 2,
+        path: '/Crypto/CryptoOverview/CryptoOverview',
+        source: Crypto,
+        header: 'CryptoTracker',
+        text: 'Track the cryptocurrencies and the current price'
+    },
+    {
         id: 3,
+        path: '/Crypto/CryptoPersonal/CryptoPersonal',
+        source: Chart,
+        header: 'Collect Your Own Currencies',
+        text: 'Collect and get more information about your favourite cryptocurrencies'
     },
     {
-        source: chart,
-        header: 'Savings Calculator',
-        text: 'See how your money will grow over time',
-        comments: '4',
-        isVideo: false,
         id: 4,
+        path: '/Emi/EmiCalculator',
+        source: Emi,
+        header: 'EMI Calculator',
+        text: 'Calculate the real cost of your current or upcoming loans'
     },
-];
+    {
+        id: 5,
+        path: '/Savings/Savings',
+        source: Savings,
+        header: 'See the Value of your Savings',
+        text: 'See how your savings will rise with time'
+    },
+]

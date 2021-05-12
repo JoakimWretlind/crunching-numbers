@@ -13,12 +13,6 @@ const CryptoCurrencies = () => {
                     <h1>Crypto<span>Currencies</span></h1>
                 </SubHeader>
 
-                <Card>
-
-                </Card>
-                <Card>
-
-                </Card>
             </CryptoContainer>
         </>
     )
